@@ -1,0 +1,14 @@
+{
+  "name": "chopper",
+  "version": "1.0.0",
+  "description": "Encontrá el mejor lugar para comer, cerca de donde estás",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sofia Sila",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.64.0"
+  }
+}
