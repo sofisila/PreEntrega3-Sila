@@ -1,0 +1,24 @@
+.main-image-container {
+    position: relative;
+    background: url("/images/jovenes.jpg") center/cover no-repeat;
+    height: 100vh;
+}
+
+.main-content-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: $blanco;
+    width: 100%;
+    padding: 0 20px;
+    box-sizing: border-box;
+    h1 {
+        font-size: 2.5rem;
+        margin-bottom: 1rem;
+    }
+    p {
+        font-size: 1.2rem;
+    }
+}

@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+body {
+    font-family: Roboto, Arial, sans-serif;
+}
+
+.mt-5 {
+    margin-top: 2rem;
+}
+
+.mt-4 {
+    margin-top: 1.5rem;
+}
+
+.footer {
+    margin-top: auto;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    span {
+        color: $gris;
+    }
+}
+
+.text-center {
+    text-align: center;
+}

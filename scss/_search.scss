@@ -1,0 +1,38 @@
+.map-image-container {
+    width: 100%;
+    overflow: hidden;
+    img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+.card-img-top {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+}
+
+// .card:hover{
+//     box-shadow: 8px 8px 8px blue;
+//     transform:scale(1.001);
+//     &:hover {
+//         @extend %hover;
+//     }
+// }
+
+.reputacion {
+    color: $dorado;
+    &:hover {
+        color: $amarillo;
+    }
+}
+
+// Para evitar que en mobile se vea feo
+@media all and (max-width:768px){
+    .card-img-top {
+        width: 100%;
+        height: 45vw;
+        object-fit: cover;
+    }
+}
